@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?> <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"; xmlns="http://xmlns.jcp.org/xml/ns/javaee"; xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaeehttp://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"; id="WebApp_ID" version="3.1"> <servlet> <servlet-name>myServlet</servlet-name> <servlet-class>testProject.MyServlet</servlet-class> </servlet> <servlet-mapping> <servlet-name>myServlet</servlet-name> <url-pattern>/myServlet</url-pattern> </servlet-mapping> </web-app>
+
+출처: https://dololak.tistory.com/81 [코끼리를 냉장고에 넣는 방법]
+
+출처: https://dololak.tistory.com/81 [코끼리를 냉장고에 넣는 방법]

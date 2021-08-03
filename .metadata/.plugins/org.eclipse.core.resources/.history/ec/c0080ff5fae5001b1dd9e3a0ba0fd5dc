@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>exam25</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>TenServlet</display-name>
+    <servlet-name>TenServlet</servlet-name>
+    <servlet-class>exam.TenServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TenServlet</servlet-name>
+    <url-pattern>/ten</url-pattern>
+  </servlet-mapping>
+</web-app> <!--  3.0 버전 이상에서는 서블릿 하나 등록할 때마다 web.xml에  등록해야 했음. 3.0 이상에서는, 어노테이션으로 서블릿 실행 가능함 -->

@@ -1,0 +1,4 @@
+browser-choice=0
+browsers=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<web-browsers current\="0">\r\n<system/>\r\n<external location\="C\:\\Program Files\\Internet Explorer\\iexplore.exe" name\="Internet Explorer"/>\r\n</web-browsers>
+eclipse.preferences.version=1
+internalWebBrowserHistory=http\://localhost\:8080/firstweb/LifecycleServlet|*|http\://localhost\:8080/firstweb/|*|http\://localhost\:8080/exam25/tt|*|http\://localhost\:8080/exam25/|*|http\://localhost\:8080/exam25/ten|*|http\://localhost\:8080/exam31/ten|*|http\://localhost\:8080/exam31/ttt|*|http\://localhost\:8080/exam31/|*|http\://localhost\:8080/firstweb/HelloServlet|*|http\://localhost\:8080/aboutme/|*|http\://localhost\:8080/aboutme/HelloServlet|*|http\://localhost\:8080/aboutme/HelloServlet/|*|http\://localhost\:8081/aboutme/HelloServlet|*|http\://localhost\:8081/aboutme/|*|http\://localhost\:8080/HelloServlet|*|http\://localhost\:8080/aboutme/HelloServlety|*|

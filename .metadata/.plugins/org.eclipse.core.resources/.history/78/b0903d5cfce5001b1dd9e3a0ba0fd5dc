@@ -1,0 +1,31 @@
+package examples;
+
+import java.io.IOException;
+import javax.servlet.ServletConfig;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+ 
+@WebServlet("/LifecycleServlet")
+public class LifecycleServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+ 
+    public LifecycleServlet() {
+    	System.out.println(""); //콘솔에만 출력함. 응답 결과 보내주는건 X
+    }
+
+ 	public void init(ServletConfig config) throws ServletException {
+		// TODO Auto-generated method stub
+	}
+ 
+	public void destroy() {
+		// TODO Auto-generated method stub
+	}
+
+	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+	}
+
+}
